@@ -1,4 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Morning Brew Cafe
+
+## Project Overview
+
+This project is a three-page website created using Next.js. The website includes a **Splash Page**, an **About Page**, and a **Gallery Page**, styled using Bootstrap and Custom CSS for responsive design. Custom components such as `Card`, `HoverCard`, `Navbar`, and `Footer` were used to modularize the content and provide consistency across all pages. The site is themed around **Morning Brew**, a fictional coffee brand, and showcases various coffee-related images, information, and services.
+
+## Pages
+
+### Splash Page (`src/pages/index.js`)
+
+The Splash Page is the landing page of the website, with a warm and inviting color scheme. It includes a hero section with a welcome message and a call-to-action button that links to the Gallery Page.
+
+#### Features:
+
+- Hero section with the message **"Welcome to Morning Brew!"**
+- Call-to-action button linking to the Gallery Page.
+- Usage of the `Navbar` and `Footer`components for navigation and footer content.
+
+### About Page (`src/pages/about/index.js`)
+
+The About Page contains information about **Morning Brew** and its philosophy. It also displays a set of products and services offered, such as **Signature Blends** and the **Morning Brew Café**. These are showcased using the **HoverCard** component.
+
+#### Features:
+
+- Detailed description of the company and its mission.
+- Display of products and services using the `HoverCard` component.
+- Consistent use of `Navbar` and `Footer` components.
+
+### Gallery Page (`src/pages/gallery/index.js`)
+
+The Gallery Page presents a grid of coffee-related images, such as coffee plants, brewing processes, and café items. The images are displayed using the `Card` component, and the page also includes an additional section with fun facts about coffee.
+
+#### Features:
+
+- Grid layout displaying six images.
+- Fun facts about coffee.
+- Reusable `Navbar` and `Footer` components.
+
+## Components
+
+### Card.jsx
+
+The `Card` component is used on the Gallery Page to display images with their descriptions.
+
+### Footer.jsx
+
+The `Footer` component appears on all pages and provides consistent branding with a copyright message.
+
+### HoverCard.jsx
+
+The `HoverCard` component is used on the About Page to display products and services with an image, title, and description.
+
+### Navbar.jsx
+
+The `Navbar` component is used for site-wide navigation. It includes links to the **Home**, **About**, and **Gallery pages**, and is styled with Bootstrap for responsiveness.
+
+## Project Details
+
+- **Framework:** Next.js
+- **Styling:** Bootstrap and custom CSS
+- **Components:** Reusable components (`Card`, `HoverCard`, `Navbar`, and `Footer`) used across multiple pages for consistency and modularity.
+- **Images:** Stored in the `public/` directory and displayed on the Gallery Page.
+
+## Image Credits
+
+Images used on this project came from the following sites: Freepik, Pexels, and Unsplash.
+
+- **Freepik:**
+  - Coffee To Go cup by juicy_fish
+- **Pexels:**
+  - Coffee Cafe by Lisa Fotios
+- **Unsplash:**
+  - Drip Coffee by Najib Kalil
+  - Coffee sign by Don Ross III
+  - Products by Rebeca Alvidrez
+  - Thank you sign by Tim Mossholder
 
 ## Getting Started
 
@@ -15,26 +90,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
