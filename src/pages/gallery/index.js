@@ -7,7 +7,7 @@ export default function Gallery() {
   return (
     <div style={{ backgroundColor: "#fefae0", minHeight: "100vh" }}>
       <Navbar />
-      <h1>Gallery</h1>
+      <h1 className="section-header">Gallery</h1>
       <section className="gallery-container">
         <Card image="img/coffeePlant.jpg" description="a coffee plant" />
         <Card image="img/dripCoffee.jpg" description="drip coffee" />
