@@ -70,10 +70,26 @@ Images used on this project came from the following sites: Freepik, Pexels, and 
 - **Pexels:**
   - Coffee Cafe by Lisa Fotios
 - **Unsplash:**
+
   - Drip Coffee by Najib Kalil
   - Coffee sign by Don Ross III
   - Products by Rebeca Alvidrez
   - Thank you sign by Tim Mossholder
+
+  ## Screenshots
+
+  ### Splash Page
+
+  ![alt text](<Screenshot 2024-10-18 235908.png>)
+
+  ### About
+
+  ![alt text](<Screenshot 2024-10-19 000000.png>)
+
+  ### Gallery
+
+  ![alt text](<Screenshot 2024-10-19 000139.png>)
+  ![alt text](<Screenshot 2024-10-19 000219.png>)
 
 ## Getting Started
 
