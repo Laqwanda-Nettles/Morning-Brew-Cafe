@@ -93,7 +93,13 @@ Images used on this project came from the following sites: Freepik, Pexels, and 
 
 ## Getting Started
 
-First, run the development server:
+Run this command in Terminal:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
